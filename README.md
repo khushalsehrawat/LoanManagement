@@ -1,7 +1,7 @@
 # Loan Management System (LAMF LMS)
 
 <p align="center">
-  <img src="Frontend/logo.png" alt="LAMF LMS" width="260" />
+  <img src="logo.png" alt="LAMF LMS" width="260" />
 </p>
 
 Java full-stack **Loan Against Mutual Funds (LAMF)** demo project:
@@ -493,3 +493,4 @@ curl -s -X POST http://localhost:8080/partner/v1/loan-applications \
 This is static HTML. Deploy the `Frontend/` folder and set backend URL:
 
 - Update `Frontend/assets/js/config.js` -> `BASE_URL: "https://<your-backend>"`
+
