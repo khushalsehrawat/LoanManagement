@@ -72,11 +72,11 @@ stateDiagram-v2
 
 ```mermaid
 flowchart LR
-  subgraph Frontend[Admin UI (Frontend/)]
+  subgraph Frontend["Admin UI (Frontend)"]
     Login[login.html] --> Dash[dashboard.html]
   end
 
-  subgraph Backend[Spring Boot API (localhost:8080)]
+  subgraph Backend["Spring Boot API (localhost:8080)"]
     Auth[/POST /auth/login/]
     Products[/GET|POST /api/products/]
     Apps[/POST /api/applications .../]
@@ -85,7 +85,7 @@ flowchart LR
     Partner[/POST /partner/v1/loan-applications/]
   end
 
-  subgraph DB[(PostgreSQL)]
+  subgraph DB["(PostgreSQL)"]
     Tables[(schema.sql)]
   end
 
@@ -493,4 +493,5 @@ curl -s -X POST http://localhost:8080/partner/v1/loan-applications \
 This is static HTML. Deploy the `Frontend/` folder and set backend URL:
 
 - Update `Frontend/assets/js/config.js` -> `BASE_URL: "https://<your-backend>"`
+
 
