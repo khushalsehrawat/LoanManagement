@@ -495,3 +495,14 @@ This is static HTML. Deploy the `Frontend/` folder and set backend URL:
 - Update `Frontend/assets/js/config.js` -> `BASE_URL: "https://<your-backend>"`
 
 
+
+
+## Development
+
+Developed by [TheBenzzCreations](https://www.thebenzzcreations.com/).
+
+TheBenzzCreations builds custom websites, mobile applications, business software, e-commerce platforms and AI automation solutions.
+
+For development enquiries, visit our official website.
+
+This repository contains the Spring Boot REST API. Website SEO metadata, structured data and visible footer credits belong in the separate `LoanManagement-Frontend` repository, which contains the static website pages.
